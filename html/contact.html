@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Bootstrap Css cdn-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <!--Jquery and Bootstrap Js-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+     <!--Css-->
+     <link rel="stylesheet" href="/style.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <!--Navbar -->
+    <header>
+        <div class="d-flex flex-column fixed-top mb-3 ">
+            <div>
+                <nav class="navbar bg-dark first-navbar  border-bottom border-success">
+                <div class="container-lg">
+                  <a class="navbar-brand text-white mx-5 fs-2 fw-bold" href="#">Shopping.</a>
+                  <a class="navbar-brand text-light fs-6 fw-bold" href="#" >
+                    <div class="basket">
+                        Your Cart
+                        <svg class="svg-basket" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path d="M112 112C112 50.14 162.1 0 224 0C285.9
+                             0 336 50.14 336 112V160H400C426.5 160 448 181.5 448
+                            208V416C448 469 405 512 352 512H96C42.98 512 0 469 0
+                            416V208C0 181.5 21.49 160 48 160H112V112zM160 160H288V112C288
+                            76.65 259.3 48 224 48C188.7 48 160 76.65 160 112V160zM136 256C149.3
+                            256 160 245.3 160 232C160 218.7 149.3 208 136 208C122.7 208 112 218.7 112 232C112
+                            245.3 122.7 256 136 256zM312 208C298.7 208 288 218.7 288 232C288 245.3 298.7 256 312 
+                            256C325.3 256 336 245.3 336 232C336 218.7 325.3 208 312 208z"/>
+                        </svg>
+                        <span class="translate-middle badge rounded-pill bg-danger">0</span>
+                    </div>
+  
+                  </a>
+                </div>    
+              </nav>
+            </div>
+            <!--Second Navbar--> 
+            <div class="bd-highlight">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <div class="container-fluid d-flex justify-content-end">
+                  <button class="navbar-toggler rounded-pill bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                  <a class="navbar-brand " href="/index.html">Home</a>
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="/index.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/html/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link border border-success rounded-pill" href="#">Contact</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+          </div>
+    </header>
+    <!--Ghost Div-->
+    <div id="Ghost" class="bg-light text-light p-4 mt-5">
+        <div>Ghost div</div>
+        <div>Ghost div</div>
+        <div>Ghost div</div>
+    </div>
+    <div class="container-lg">
+            <!--Section: Contact v.2-->
+<section class="mb-4">
+   
+    <!--Section heading-->
+    <h2 class="fw-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-12">
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+            </form>
+            <div class="text-center text-md-left">
+                <a class="btn btn-success">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li>
+                    <svg class="svg-location" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 
+                        85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 
+                        279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 
+                        168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 
+                        192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 
+                        128 192C128 227.3 156.7 256 192 256z"/>
+                    </svg>
+                    <p>San Francisco, CA 94126, USA</p>
+                </li>
+
+                <li>
+                    <svg class="svg-phone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path d="M18.92 351.2l108.5-46.52c12.78-5.531 27.77-1.801 36.45 8.98l44.09 53.82c69.25-34 125.5-90.31 
+                    159.5-159.5l-53.81-44.04c-10.75-8.781-14.41-23.69-8.974-36.47l46.51-108.5c6.094-13.91 
+                    21.1-21.52 35.79-18.11l100.8 23.25c14.25 
+                    3.25 24.22 15.8 24.22 30.46c0 252.3-205.2 457.5-457.5 
+                    457.5c-14.67 0-27.18-9.968-30.45-24.22l-23.25-100.8C-2.571 372.4 5.018 357.2 18.92 351.2z"/>
+                    </svg>
+                    <p>+ 01 234 567 89</p>
+                </li>
+
+                <li>
+                    <svg class="svg-mail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 
+                    492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 
+                    141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 
+                    356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 
+                    0 384V176L217.6 339.2z"/>
+                    </svg>
+                    <p>contact@example.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+    </div>
+</section>
+<!--Section: Contact v.2-->
+    
+    </div>
+
+<script src="/app.js"></script>
+</body>
+</html>

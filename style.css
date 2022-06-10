@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card.m-2{
+    width:16rem;
+    height: auto;
+}
+.card{
+    border:solid 1px #198754;
+}
+.card-body{
+    border-top:solid 1px #198754;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #444546;
+    font-size: 14px;
+    font-weight: 565;
+    opacity: 0.9;
+}
+.svg-basket{
+    width: 30px;
+    height: 30px;
+    fill:grey;
+}
+.cart-add:hover{
+    background-color: rgb(218, 214, 214);
+    color: rgb(3, 63, 45);
+
+}
+.svg-watch{
+    width: 40px;
+    height: 40px;
+    fill:rgb(51, 40, 40);
+    margin-bottom: 30px;
+}
+.svg-watch:hover{
+    fill:rgb(3, 63, 45);
+}
+.svg-location,.svg-phone,
+.svg-mail,.svg-instagram,
+.svg-twitter,.svg-facebook,
+.svg-linkedin,.svg-medium,.svg-whatsapp{
+    width: 30px;
+    height: 30px;
+    fill: #198754;
+}
+
+.svg-trash{
+    width: 30px;
+    height: 30px;
+    fill: rgba(214, 0, 0, 0.76);
+}
+.svg-trash:hover{
+    fill:rgba(255, 0, 0, 0.61);
+}
+.basket:hover{
+    color:#a8b6b9;
+}
+
+.first-navbar {
+    height:6rem;
+}
+
+.notification{
+    height: 30px;
+    background-color: #198754;
+    font-size:large;
+    font-weight:600;
+    display: none;
+}
+#basket-total{
+    max-width: 18rem;
+}
