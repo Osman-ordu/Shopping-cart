@@ -1,4 +1,4 @@
-# Shopping Cart (Design and Code) Bootstrap,Vanilla.js
+# Shopping Cart (Design and Code) Bootstrap,Vanilla.js,Jquery(fadeIn,fadeOut)
 
 https://osman-ordu.github.io/shoppingcart/
 
